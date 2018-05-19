@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.template {
+    width: 1100px;
+    background: white;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.template .navbar {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px double black;
+}
+.template .navbar ul {
+    margin-top: 30px;
+    position: absolute;
+    opacity: 0.7;
+}
+.template .navbar ul .navColor {
+    color: black;
+}
+.template .navbar ul .navColor li {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 20px;
+    float: left;
+}
+.template .navbar ul .navColor li:hover {
+    opacity: 0.7;
+}
+.template .navbar .author {
+    margin-left: 41%;
+    position: absolute;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+.template .navbar .author:hover {
+    opacity: 0.5;
+}
+.template .navbar .rightMenu {
+    left: 80%;
+    margin-top: 30px;
+    position: absolute;
+    opacity: 0.7;
+}
+.template .navbar .rightMenu a li {
+    font-size: 14px;
+    list-style: none;
+    padding-left: 20px;
+    float: left;
+}
+.template .navbar .rightMenu a li #facebook {
+    color: black;
+}
+.template .navbar .rightMenu a li #facebook:hover {
+    color: #1336d1;
+}
+.template .navbar .rightMenu a li #it {
+    color: black;
+}
+.template .navbar .rightMenu a li #it:hover {
+    color: #e747d2;
+}
+.template .navbar .rightMenu a li #fc {
+    color: black;
+}
+.template .navbar .rightMenu a li #fc:hover {
+    color: #e23f0d;
+}
+.template .navbar .rightMenu a li #tt {
+    color: black;
+}
+.template .navbar .rightMenu a li #tt:hover {
+    color: #28b6ee;
+}
+.template .header {
+    width: 100%;
+    height: 200px;
+    background: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.template .header h1 {
+    margin-left: 41%;
+    margin-top: 50px;
+}
+.template .header .one {
+    margin-left: 31%;
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.template .header .two {
+    margin-left: 37%;
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.template .cat1 {
+    width: 100%;
+}
+.template .cat1:hover {
+    opacity: 0.8;
+}
+.template .cat1:hover .side1 {
+    background: black;
+}
+.template .cat1 .img1 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+}
+.template .cat1 .side1 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 60%;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat1 .side1 h2 {
+    margin-top: 128px;
+}
+.template .cat2 {
+    width: 100%;
+    margin-top: 36%;
+}
+.template .cat2:hover {
+    opacity: 0.8;
+}
+.template .cat2:hover .side2 {
+    background: black;
+}
+.template .cat2 .img1 {
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    position: absolute;
+}
+.template .cat2 .side2 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat2 .side2 h2 {
+    margin-top: 128px;
+}
+.template .cat3 {
+    width: 100%;
+    margin-top: 72%;
+}
+.template .cat3:hover {
+    opacity: 0.8;
+}
+.template .cat3:hover .side3 {
+    background: black;
+}
+.template .cat3 .img1 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+}
+.template .cat3 .side3 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 60%;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat3 .side3 h2 {
+    margin-top: 128px;
+}
+.template .cat4 {
+    width: 100%;
+    margin-top: 108%;
+}
+.template .cat4:hover {
+    opacity: 0.8;
+}
+.template .cat4:hover .side4 {
+    background: black;
+}
+.template .cat4 .img1 {
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    position: absolute;
+}
+.template .cat4 .side4 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat4 .side4 h2 {
+    margin-top: 128px;
+}
+.template .cat5 {
+    width: 100%;
+    margin-top: 144%;
+}
+.template .cat5:hover {
+    opacity: 0.8;
+}
+.template .cat5:hover .side5 {
+    background: black;
+}
+.template .cat5 .img1 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+}
+.template .cat5 .side5 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 60%;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat5 .side5 h2 {
+    margin-top: 128px;
+}
+.template .cat6 {
+    width: 100%;
+    margin-top: 180%;
+}
+.template .cat6:hover {
+    opacity: 0.8;
+}
+.template .cat6:hover .side6 {
+    background: black;
+}
+.template .cat6 .img1 {
+    width: 60%;
+    height: 100%;
+    left: 40%;
+    position: absolute;
+}
+.template .cat6 .side6 {
+    width: 40%;
+    height: 100%;
+    background: lightgray;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.template .cat6 .side6 h2 {
+    margin-top: 128px;
+}
+.template .foot {
+    margin-top: 35%;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: white;
+    box-shadow: 0 2px 2px 0 gray;
+}
+.template .foot p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+.template .foot p:hover {
+    color: gray;
+}
